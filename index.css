@@ -1,0 +1,109 @@
+/*
+* @Author: ClausClaus
+* @Date:   2016-11-18 15:45:39
+* @Last Modified by:   ClausClaus
+* @Last Modified time: 2016-11-21 10:19:51
+*/
+
+body {
+    background: #333;
+}
+
+#box {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 674px;
+    height: 450px;
+}
+
+#img {
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip: rect(0, 200px, 200px, 0);
+}
+
+#main {
+    border: 1px solid #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    cursor: move;
+}
+#preview{
+    position: absolute;
+    width: 674px;
+    height: 450px;
+    top: 100px;
+    left: 800px;
+}
+#img3{
+    position: absolute;
+    clip:rect(0,200px,200px,0);
+}
+.minDiv {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+}
+
+.left-up {
+    top: -4px;
+    margin-left: -4px;
+    cursor: nw-resize;
+}
+
+.up {
+	left: 50%;
+    margin-left: -4px;
+    margin-top: -4px;
+    cursor: n-resize;
+}
+
+.right-up {
+	right: -4px;
+	top: -4px;
+	cursor: ne-resize;
+}
+
+.right {
+	right: -4px;
+	top: 50%;
+	margin-top: -4px;
+	cursor: e-resize;
+}
+
+.right-down {
+	bottom: -4px;
+	right: -4px;
+	cursor: se-resize;
+}
+
+.down {
+	bottom: -4px;
+	left: 50%;
+	margin-left: -4px;
+	cursor: s-resize;
+}
+
+.left-down {
+	left: -4px;
+	bottom: -4px;
+	cursor: sw-resize;
+}
+
+.left {
+	top: 50%;
+	margin-top: -4px;
+    left: -4px;
+	cursor: w-resize;
+}
